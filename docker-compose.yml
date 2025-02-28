@@ -1,0 +1,9 @@
+services:
+  #nginx
+  nginx_front:
+    build:
+      context: docker/nginx
+    ports:
+      - "3000:80"
+    volumes:
+      - ./:/var/www/

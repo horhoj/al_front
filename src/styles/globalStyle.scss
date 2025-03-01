@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 18px;
+  color: var(--color);
 }
 
 * {
@@ -27,5 +28,14 @@
 
 body {
   background-color: rgb(148 163 184);
-  
+}
+
+:root {
+  --border-radius: 5px;
+  --bg-color: #fff;
+  --color: #333;
+  --border-color: #ddd; 
+  --button-bg-color: #006cd0;
+  --button-color: #fff;
+  --error-color: #ff0000;
 }

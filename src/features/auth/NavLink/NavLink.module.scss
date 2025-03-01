@@ -1,0 +1,14 @@
+.NavLink {
+  display: flex;
+  text-decoration: none;
+  min-height: 40px;
+  align-items: center;
+  padding: 5px 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: #eee;
+}
+

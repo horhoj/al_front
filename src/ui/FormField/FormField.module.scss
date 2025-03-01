@@ -1,0 +1,22 @@
+.FormField {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.label {
+  font-size: 18px;
+  
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.error {
+  margin-top: 5px;
+  color: var(--error-color);
+  font-size: 14px;
+}
